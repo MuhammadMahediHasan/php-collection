@@ -1,0 +1,15 @@
+{
+    "name": "mahad/package",
+    "description": "A simple Package",
+    "authors": [
+    ],
+    "license": "MIT",
+    "require": {
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Collection\\" : "src/"
+        }
+    }
+}
